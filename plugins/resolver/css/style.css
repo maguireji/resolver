@@ -28,4 +28,5 @@ h3 {
 
 #loadbutton {
     text-align: center;
+    max-width: unset;
 }
