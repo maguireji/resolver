@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Resolver Wordpress Test Integration
  * Plugin URI: https://resolver.clotheslineonline.ca/
- * Description: Inegration of CVILY API for Candidate and Job Order functions in WordPress
+ * Description: Resolver plugin challenge
  * Version: 1
  * Text Domain: resolver
  * Author: James Maguire
@@ -99,9 +99,9 @@
 			$result = $wpdb->insert($table_name, $item);
 			
 		};
+				
+		$datastr .= '<div class="line-break"></div>';
 
-		$datastr .= '</div>';
-		
 		// Should change this to Ajax rather than self reload the page.
 		$datastr .= '<div id="loadbutton"><a href="/resolver/?source_page=2"><button>CLICK TO LOAD MORE</button></a></div>';
 
@@ -141,4 +141,5 @@
 	
 	add_shortcode('resolver_interview', 'resolver_shortcode_demo');
 
+	
 	
