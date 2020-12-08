@@ -100,10 +100,10 @@
 			
 		};
 
+		$datastr .= '</div>';
+		
 		// Should change this to Ajax rather than self reload the page.
 		$datastr .= '<div id="loadbutton"><a href="/resolver/?source_page=2"><button>CLICK TO LOAD MORE</button></a></div>';
-				
-		$datastr .= '</div>';
 
 		}
 
