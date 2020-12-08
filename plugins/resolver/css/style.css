@@ -1,0 +1,28 @@
+body {
+    display: block;
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+.entry-content {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.containerbody p {
+    font-size: 20px;
+}
+
+.userbody p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#loadbutton {
+    margin: 0 auto;
+    width: auto;
+}
